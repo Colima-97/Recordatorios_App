@@ -8,12 +8,11 @@
 
     <DatePicker
         android:id="@+id/datePicker"
-        android:layout_width="368dp"
+        android:layout_width="348dp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.205"
-        app:layout_constraintHorizontal_bias="1.0" />
+        app:layout_constraintVertical_bias="0.794" />
 </android.support.constraint.ConstraintLayout>
