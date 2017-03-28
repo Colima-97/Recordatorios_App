@@ -32,13 +32,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginRight="20dp"
+            android:layout_weight="1"
             android:background="@android:color/holo_blue_dark"
+            android:onClick="onClick"
             android:visibility="visible"
             app:layout_constraintBottom_toTopOf="@+id/datePicker"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@android:drawable/ic_menu_search"
-            tools:layout_editor_absoluteX="196dp"
-            android:layout_weight="1" />
+            tools:layout_editor_absoluteX="196dp" />
 
         <ImageButton
             android:id="@+id/ClockButton"
