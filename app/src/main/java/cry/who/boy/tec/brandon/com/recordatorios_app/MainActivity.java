@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onClick(View view){
-        Intent Search=new Intent(this, Search.class);
-        startActivity(Search);
+        Intent Buscar=new Intent(this, Buscar.class);
+        startActivity(Buscar);
 
     }
 
