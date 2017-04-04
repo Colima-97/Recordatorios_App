@@ -20,6 +20,10 @@
         <activity
             android:name=".Buscar"
             android:label="@string/title_activity_buscar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".recordatorio"
+            android:label="@string/title_activity_recordatorio"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
