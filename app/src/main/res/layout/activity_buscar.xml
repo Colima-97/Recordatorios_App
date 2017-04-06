@@ -85,33 +85,45 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/Spinner_LinearLayout"
         android:layout_width="386dp"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="0dp"
         android:layout_marginTop="15dp"
         android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="@+id/linearLayout"
-        android:layout_marginRight="0dp"
-        app:layout_constraintRight_toRightOf="@+id/linearLayout">
+        app:layout_constraintRight_toRightOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
-        <Spinner
-            android:id="@+id/Dia_spinner"
-            android:layout_width="match_parent"
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="date"
+            android:numeric="integer"
+            android:selectAllOnFocus="false"
+            android:singleLine="false" />
 
-        <Spinner
-            android:id="@+id/Mes_spinner"
-            android:layout_width="match_parent"
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="date"
+            android:numeric="integer" />
 
-        <Spinner
-            android:id="@+id/Año_spinner"
-            android:layout_width="match_parent"
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="date"
+            android:numeric="integer" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
