@@ -103,9 +103,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="date"
-            android:numeric="integer"
-            android:selectAllOnFocus="false"
-            android:singleLine="false" />
+            android:selectAllOnFocus="false" />
 
         <EditText
             android:id="@+id/editText2"
@@ -114,7 +112,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="date"
-            android:numeric="integer" />
+            />
 
         <EditText
             android:id="@+id/editText"
@@ -123,7 +121,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="date"
-            android:numeric="integer" />
+             />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
